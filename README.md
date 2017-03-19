@@ -5,3 +5,5 @@ data_prep.R: Data loading and feature (n-gram) extraction
 model_v01.R: Final model
 
 ui.R / server.R: Shiny app
+
+*.Rdata: n-gram counts and frequencies
