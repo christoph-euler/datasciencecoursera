@@ -1,7 +1,7 @@
-uniGram.sort <- readRDS("D:/Users/ceuler/Documents/2 DataScience/coursera/course_10/nfreq.f1.RData")
-biGram.sort <- readRDS("D:/Users/ceuler/Documents/2 DataScience/coursera/course_10/nfreq.f2.RData")
-triGram.sort <- readRDS("D:/Users/ceuler/Documents/2 DataScience/coursera/course_10/nfreq.f3.RData")
-quadGram.sort <- readRDS("D:/Users/ceuler/Documents/2 DataScience/coursera/course_10/nfreq.f4.RData")
+uniGram.sort <- readRDS("nfreq.f1.RData")
+biGram.sort <- readRDS("nfreq.f2.RData")
+triGram.sort <- readRDS("nfreq.f3.RData")
+quadGram.sort <- readRDS("nfreq.f4.RData")
 
 p.uniGram <- cbind(uniGram.sort, p=uniGram.sort[,2]/sum(uniGram.sort[,2]))
 p.biGram <-  cbind(biGram.sort, p=biGram.sort[,2]/sum(biGram.sort[,2]))
